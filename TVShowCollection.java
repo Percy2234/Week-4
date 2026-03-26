@@ -55,10 +55,12 @@ class TVTest {
     public static void main(String[] args) {
         TVShow breakingBad = new TVShow("Breaking Bad", 9.5, 47, 62);
         TVShow gameOfThrones = new TVShow("Game Of Thrones", 9.3, 57, 73);
+        TVShow clarksonsFarm = new TVShow("Clarkson's Farm", 9.0, 45, 16);
 
         TVShowCollection collection = new TVShowCollection();
         collection.myShows[0] = breakingBad;
         collection.myShows[1] = gameOfThrones;
+        collection.myShows[2] = clarksonsFarm;
 
         System.out.println(collection);
     }

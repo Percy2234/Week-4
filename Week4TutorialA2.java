@@ -54,7 +54,7 @@ class BunchOfPoints {
     int numberFurtherThan(double squaredDistance) {
         int count = 0;
 
-        for (Point p : points) {
+        for (Point p : this.points) {
             if (p.squaredDistance() > squaredDistance) {
                 count++;
             }
